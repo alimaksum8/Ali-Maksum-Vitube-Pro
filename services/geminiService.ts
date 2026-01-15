@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { YouTubeContent } from "../types";
 
 // Mengambil API_KEY dari variabel global yang diinjeksikan di index.html
-const API_KEY = (window as any).GEMINI_API_KEY || '';
+const API_KEY = (window as any).GEMINI_API_KEY || 'AIzaSyBxaQGXZYLhfbtNvYhu_9AUz2zpYJ7G6Ck';
 
 // Category IDs based on Google Trends (Arts: 3, Music: 35)
 const CATEGORY_MAP: Record<string, string> = {
